@@ -132,12 +132,11 @@ table {
 html {
   font-size: 62.5%;
 }
-html,
 body {
-  font-family: 'PT Sans', sans-serif;
-  max-width: 960px;
-  min-height: 100%;
-  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.9);
+  margin: 0;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -151,4 +150,18 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #333;
+}
+.navbar nav > a {
+  text-decoration: none;
+  color: #fefefe;
+  line-height: 1.9;
+  font-size: 2rem;
+  padding-left: 1.2rem;
 }
