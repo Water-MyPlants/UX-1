@@ -218,3 +218,34 @@ p {
   text-align: center;
   padding: 1.5rem;
 }
+.cta {
+  text-align: center;
+  font-size: 3rem;
+}
+.cta p {
+  font-size: 2rem;
+}
+.cta .btn {
+  font-size: 3rem;
+  padding: 1rem 2rem;
+  background-color: royalblue;
+  border: transparent;
+  border-radius: 0.5rem;
+  color: antiquewhite;
+  text-decoration: none;
+  margin: 1.5rem;
+}
+@media (max-width: 760px) {
+  .cta .btn {
+    font-size: 3rem;
+    width: 80%;
+    border-radius: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .cta .btn {
+    font-size: 3rem;
+    width: 80%;
+    border-radius: 1rem;
+  }
+}

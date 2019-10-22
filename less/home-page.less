@@ -57,3 +57,35 @@
   text-align: center;
   padding: 1.5rem;
 }
+
+.cta {
+  text-align: center;
+  font-size: 3rem;
+
+  p {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 3rem;
+		padding: 1rem 2rem;
+		background-color: royalblue;
+		border: transparent;
+		border-radius: .5rem;
+		color: antiquewhite;
+		text-decoration: none;
+		margin: 1.5rem;
+
+		@media @tablet {
+			font-size: 3rem;
+			width: 80%;
+			border-radius: 1rem;
+		}
+
+		@media @phone {
+		  font-size: 3rem;
+		  width: 80%;
+		  border-radius: 1rem;
+		}
+  }
+}
