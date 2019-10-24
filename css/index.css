@@ -208,7 +208,9 @@ p {
 .flex {
   display: flex;
   margin: auto;
+  max-width: 960px;
   text-align: center;
+  flex-wrap: wrap;
 }
 .bg-light {
   background: #f4f4f4;
