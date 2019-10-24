@@ -34,3 +34,52 @@
     /* font-size: 1.5rem; */
   }
 }
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  // margin: 2rem;
+  background: #f4f4f4;
+  color: #333;
+  
+  div > p {
+    font-size: 1.8rem; 
+  }
+
+  .introUs {
+    margin: 2.5rem;
+    
+  }
+
+  .flex-2 {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+    p {
+      margin-bottom: 2.5rem;
+      max-width: 45%;
+    }
+  }
+}
+
+.team {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 3.5rem 0;
+
+  div {
+    padding: 1.5rem 0;
+
+    .fill {
+      background: #f4f4f4;
+      width: 150px;
+      border-radius: 50%;
+    }
+  }
+}
