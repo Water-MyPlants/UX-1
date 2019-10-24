@@ -210,7 +210,14 @@ p {
   margin: auto;
   max-width: 960px;
   text-align: center;
-  flex-wrap: wrap;
+}
+@media (max-width: 500px) {
+  .flex {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: baseline;
+  }
 }
 .bg-light {
   background: #f4f4f4;
