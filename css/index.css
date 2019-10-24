@@ -258,6 +258,9 @@ p {
     border-radius: 1rem;
   }
 }
+.image img {
+  width: 210px;
+}
 footer {
   background-color: #333;
   color: #f4f4f4;
