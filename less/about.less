@@ -68,17 +68,24 @@
   margin: 0 auto;
   max-width: 960px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
   padding: 3.5rem 0;
 
   div {
-    padding: 1.5rem 0;
+    padding: 1.5rem;
+    width: 23%;
+    margin: auto;
+
+    @media @phone {
+      width: 60%;
+    }
 
     .fill {
       background: #f4f4f4;
       width: 150px;
+      height: 150px;
       border-radius: 50%;
     }
   }
