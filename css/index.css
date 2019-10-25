@@ -258,6 +258,9 @@ p {
     border-radius: 1rem;
   }
 }
+.image img {
+  width: 210px;
+}
 footer {
   background-color: #333;
   color: #f4f4f4;
@@ -323,16 +326,27 @@ footer div i {
   margin: 0 auto;
   max-width: 960px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
   padding: 3.5rem 0;
 }
 .team div {
-  padding: 1.5rem 0;
+  padding: 1.5rem;
+  width: 23%;
+  margin: auto;
+}
+@media (max-width: 500px) {
+  .team div {
+    width: 60%;
+  }
 }
 .team div .fill {
   background: #f4f4f4;
   width: 150px;
+  height: 150px;
   border-radius: 50%;
+}
+.team div .icon {
+  text-decoration: none;
 }
